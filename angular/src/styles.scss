@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../src/app/components/chat/chat-user-input/picker.css";
+html, body, app-root {
+  height: fit-content;
+  min-height: var(--stubu-browser-height-full);
+  width: 100%;
+}
+
+app-root {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  font-family: "Roboto Light", "Helvetica", sans-serif !important;
+  background-color: var(--stubu-primary-dark) !important;
+  color: var(--stubu-white) !important;
+}
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+@import "font-awesome/scss/font-awesome.scss";
+
+@import 'assets/css/colors.css';
+@import 'assets/css/sizes.css';
